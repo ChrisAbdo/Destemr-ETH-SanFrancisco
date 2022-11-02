@@ -174,7 +174,11 @@ const AppBody: React.FC<Props> = ({ state, setApiKey, createStream }) => {
             <div className="flex items-center justify-between mt-4 break-all">
               <span>
                 Share video: <br />
-                {`${window.location.href}video/${state.divKey.replace(
+                {/* {`${"https://destemrlivepeer.vercel.app/"}video/${state.divKey.replace(
+                  "_",
+                  "-"
+                )}`} */}
+                {`https://destemrlivepeer.vercel.app/video/${state.divKey.replace(
                   "_",
                   "-"
                 )}`}
