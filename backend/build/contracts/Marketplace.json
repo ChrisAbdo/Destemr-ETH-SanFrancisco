@@ -17754,14 +17754,113 @@
       "transactionHash": "0x6b2d38a1db130776e169d62882dac5af8f1ece65c93d7a47191c18a173f55aff"
     },
     "80001": {
-      "events": {},
+      "events": {
+        "0x380acab0ee1d651da065961944240ee750b6935ba0edefa78afb1c8e07676286": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "nftContract",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "supply",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "royalty",
+              "type": "uint256"
+            }
+          ],
+          "name": "NFTListed",
+          "type": "event"
+        },
+        "0xf3fcdb33272460c0025823d66ac5c566b7fa3a8ac81c4e655d1d9a06665cb588": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "nftContract",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "seller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "price",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "supply",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "royalty",
+              "type": "uint256"
+            }
+          ],
+          "name": "NFTSold",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0xC1CA3324787c0F32b963845433639d9C3b816B9E",
-      "transactionHash": "0x17565acc06c1e0ad6302444408a0e89b840f9f733a9a9e8e9fe66256f2b2f448"
+      "address": "0x33Db9CB9C7f682c339610fbAce1De024691cbC7E",
+      "transactionHash": "0x6619597e639bb2c586a801f7c8cab1efc2d7c153aafeffeb74a251f5c37dd564"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-02T05:42:53.852Z",
+  "updatedAt": "2022-11-02T07:35:55.244Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
