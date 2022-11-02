@@ -3,7 +3,6 @@ import React from "react";
 import { APP_STATES } from "../utils/types";
 import AppBody from "../components/AppBody";
 import { createStream, getStreamStatus } from "../utils/apiFactory";
-import Web3 from "web3";
 
 declare global {
   interface Window {

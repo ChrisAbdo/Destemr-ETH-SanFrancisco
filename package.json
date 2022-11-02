@@ -11,7 +11,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3",
     "@truffle/hdwallet-provider": "^2.1.0",
-    "axios": "^1.1.2",
+    "axios": "^0.21.1",
     "dotenv": "^16.0.3",
     "ipfs-http-client": "50.1.2",
     "daisyui": "^2.38.0",
