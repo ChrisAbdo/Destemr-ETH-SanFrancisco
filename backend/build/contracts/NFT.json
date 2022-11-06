@@ -20725,12 +20725,12 @@
         }
       },
       "links": {},
-      "address": "0x7Aa910E6244775FbEAE72FDf19486384f8fDd548",
-      "transactionHash": "0xaba285af9708e24ce3063655b2a0e679a36d33e15992c52d89dffb71a1c0d051"
+      "address": "0xec6d6cCDFfEA5D14a9d3eda7B5aD33CEbD8d6Fd2",
+      "transactionHash": "0x47c0f80653da33b638ef04b57614bca762d78b8b8e9a387db0900bf989f9d784"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-11-02T07:35:55.235Z",
+  "updatedAt": "2022-11-06T01:23:39.950Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
